@@ -60,7 +60,7 @@ pip install ffmpeg
 
 # Download and Preprocess Data
 
-1. Download the UCF-101 video files from [here][8] and keep it under `$PROJECT_ROOT/UCF-101` directory, for default arguments to work effectively. I have uploaded an example dataset. Here `$PROJECT_ROOT` refers to root directory ofthe project.
+1. Download the UCF-101 video files from [here][8] and keep it under `$PROJECT_ROOT/UCF-101` directory, for default arguments to work effectively. I have uploaded an example dataset. Here `$PROJECT_ROOT` refers to root directory of the project.
 
 2. Use the `image_extractor.py` file to extract video frames from source folder(s) to their respective destination folder(s). It will recursively traverse the folders and extract frames at given intervals and store them to their corresponding folders under the parent directory `./UCF-101/img_data/`.
 ```sh
